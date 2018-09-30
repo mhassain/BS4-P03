@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/navbar-fixed.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="img/sheild.png">
+  <title>Bootstrap Project 3</title>
+</head>
+<body>
+  <!---------------- Nav Section ----------------->
+  <nav class="navbar navbar-light navbar-expand-lg py-3 fixed-top">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        <img src="img/BF-Logo.png" alt="canva" width="50" height="50" class="img-fluid">
+      <h3 class="d-inline align-middle">Book</h3>
+      </a>
+      <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navToggle">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navToggle">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a> </li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a> </li>
+          <li class="nav-item"><a class="nav-link" href="#">Meet The Authors</a> </li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a> </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!----------Nav End --------->
+
+  <!---------- Poster Section ------->
+  <section id="poster" class="py-5 text-center text-light">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <h1 class="display-1 mt-5 pt-5">Do What You Dream Of...</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+            <a href="#" class="btn btn-outline-light "> <i class="fa fa-arrow-right"></i>Read More</a>
+          </div>
+          <div class="col-lg-6 col-md-12 py-3">
+            <img src="img/Book-Cover.png" alt="book-cover" class="img-fluid d-none d-lg-block">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!------------ Poster End -------->
+
+  <!------------ Subscribe Section ------->
+  <div id="subscribe" class=" py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <input type="text" name="Name" placeholder="Your Name" class="form-control form-control-lg">
+        </div>
+        <div class="col-md-4">
+          <input type="text" name="Email" placeholder="Your Email" class="form-control form-control-lg">
+        </div>
+        <div class="col-md-4">
+          <button type="button" name="Submit" class="btn btn-secondary btn-lg btn-block"><i class="fa fa-envelope-open"></i>Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------------ Subscribe Section  End------->
+
+  <!------------ Boxes Section ----------->
+    <div id="boxes" class="py-5 text-center">
+      <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="card">
+                <div class="card-body">
+                  <h3>Be Better</h3>
+                  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="card second-card">
+                <div class="card-body">
+                  <h3 class="text-light">Be Smarter</h3>
+                  <p class="lead text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="card">
+                <div class="card-body">
+                  <h3>Be Faster</h3>
+                  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="card forth-card">
+                <div class="card-body">
+                  <h3 class="text-light">Be Stronger</h3>
+                  <p class="lead text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  <!------------ Boxes Section END ----------->
+
+  <!------------ About Section START ----------->
+
+  <div id="about" class="py-5 text-center bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="book-info">
+            <h2 class="display-4">Why This Book?</h2>
+            <p class="lead mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <!---------- Accordion ------->
+          <div class="accordion py-4" id="threeAccordion">
+
+            <div class="card"><!----- Card One ------->
+              <div class="card-header">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne">
+                    <i class="fa fa-arrow-circle-down"></i> <span>Get Inspired</span>
+                  </button>
+                </h5>
+              </div>
+
+              <div id="collapseOne" class="collapse show"  data-parent="#threeAccordion">
+                <div class="card-body">
+                  <p class="lead"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. </p>
+                </div>
+              </div>
+            </div>
+            <div class="card"><!----- Card Two ------->
+              <div class="card-header">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo">
+                    <i class="fa fa-arrow-circle-down"></i> <span>Get The Knowledge</span>
+                  </button>
+                </h5>
+              </div>
+
+              <div id="collapseTwo" class="collapse"  data-parent="#threeAccordion">
+                <div class="card-body">
+                  <p class="lead"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. </p>
+                </div>
+              </div>
+            </div>
+            <div class="card"><!----- Card Three ------->
+              <div class="card-header">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree">
+                    <i class="fa fa-arrow-circle-down"></i> <span>Open Your Mind</span>
+                  </button>
+                </h5>
+              </div>
+
+              <div id="collapseThree" class="collapse"  data-parent="#threeAccordion">
+                <div class="card-body">
+                  <p class="lead"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. </p>
+                </div>
+              </div>
+            </div>
+          </div><!-----Accordion END---->
+        </div><!---- Col-12--->
+      </div><!---- Row END --->
+    </div><!-----Container END ---->
+  </div><!------ Main Div---->
+
+  <!------------ About Section End----------->
+
+
+  <!------------ Author Section START ----------->
+
+  <div id="authors" class="py-5 text-center">
+    <div class="container">
+      <div class="authors-info">
+        <h2 class="display-4">Meet The Authors</h2>
+        <p class="lead mt-3 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <!------- Authors Info here ---->
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3 ">
+          <div class="card"><!-----author One ---->
+            <div class="card-body">
+              <img src="img/personOne.jpg" alt="Nathaniel Fitzgerald" class="img-fluid rounded-circle w-50 mb-3">
+              <h3>Nath Fitzgerald</h3>
+              <h5>Lead Writer</h5>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <div class="d-flex flex-row justify-content-center">
+                <a href="#"><i class="fa fa-facebook px-4 pt-3"></i></a>
+                <a href="#"><i class="fa fa-twitter px-4 pt-3"></i></a>
+                <a href="#"><i class="fa fa-linkedin px-4 pt-3"></i></a>
+              </div>
+            </div>
+          </div>
+        </div><!---- Column--->
+        <div class="col-sm-12 col-md-6 col-lg-3 ">
+          <div class="card"><!-----author Two ---->
+            <div class="card-body">
+              <img src="img/personTwo.jpeg" alt="Grach Smith" class="img-fluid rounded-circle w-50 mb-3">
+              <h3>Grach Smith</h3>
+              <h5>Co-Writer</h5>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <div class="d-flex flex-row justify-content-center">
+                <a href="#"><i class="fa fa-facebook px-4 pt-3"></i></a>
+                <a href="#"><i class="fa fa-twitter px-4 pt-3"></i></a>
+                <a href="#"><i class="fa fa-linkedin px-4 pt-3"></i></a>
+              </div>
+            </div>
+          </div>
+        </div><!---- Column--->
+        <div class="col-sm-12 col-md-6 col-lg-3 ">
+          <div class="card"><!-----author Three ---->
+            <div class="card-body">
+              <img src="img/personThree.jpg" alt="Jhon Doe" class="img-fluid rounded-circle w-50 mb-3">
+              <h3>Jhon Doe</h3>
+              <h5>Editor</h5>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <div class="d-flex flex-row justify-content-center">
+                <a href="#"><i class="fa fa-facebook px-4 pt-3"></i></a>
+                <a href="#"><i class="fa fa-twitter px-4 pt-3"></i></a>
+                <a href="#"><i class="fa fa-linkedin px-4 pt-3"></i></a>
+              </div>
+            </div>
+          </div>
+        </div><!---- Column--->
+        <div class="col-sm-12 col-md-6 col-lg-3 ">
+          <div class="card"><!-----author Four ---->
+            <div class="card-body">
+              <img src="img/personFour.jpg" alt="Susan Williams" class="img-fluid rounded-circle w-50 mb-3">
+              <h3>Susan Williams</h3>
+              <h5>Artist</h5>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <div class="d-flex flex-row justify-content-center">
+                <a href="#"><i class="fa fa-facebook px-4 pt-3"></i></a>
+                <a href="#"><i class="fa fa-twitter px-4 pt-3"></i></a>
+                <a href="#"><i class="fa fa-linkedin px-4 pt-3"></i></a>
+              </div>
+            </div>
+          </div>
+        </div><!---- Column--->
+      </div><!---- Row END --->
+    </div><!-----Container END ---->
+  </div><!------ Main Div---->
+
+  <!------------ Author Section END----------->
+
+  <!------------ Contact Section START----------->
+  <div id="contact" class="py-5 ">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-9">
+          <div class="contact-info text-center">
+            <h2 class="display-4">Get In Touch</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <form class="contactForm" action="index.html" method="post">
+              <div class="input-group input-group-lg mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-user"></i> </span>
+                </div>
+                <input type="text" class="form-control form-control-lg" placeholder="Username">
+              </div><!---- Input One end--->
+              <div class="input-group input-group-lg mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-envelope"></i> </span>
+                </div>
+                <input type="text" class="form-control form-control-lg" placeholder="Email">
+              </div><!---- Input Two end--->
+              <div class="input-group input-group-lg mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-pencil"></i> </span>
+                </div>
+                <textarea class="form-control form-control-lg" placeholder="Message" rows="5"></textarea>
+              </div><!---- Input Three end--->
+
+              <button type="submit" name="submit" class="btn btn-lg btn-block">Submit</button>
+            </form>
+          </div><!---- Contact info End--->
+        </div><!---- Column One End---->
+        <div class="col-sm-12 col-md-3 align-self-center">
+          <img src="img/BF-Logo.png" alt="" class="img-fluid">
+        </div><!---- Column Two End---->
+      </div><!---- row end---->
+    </div><!---- container end---->
+  </div><!---- Main div end--->
+
+  <!------------ Contact Section END----------->
+
+<!-------- Footer Section Start ------->
+<div id="footer" class="py-4 text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p>All Thanks Goes To Moshiur @Coders Foundation || 2018</p>
+        <span class="lead"> ReDesigned By </span><a href="https://www.facebook.com/webcodedev/" target="_blank"> Md. Mahade Hasan</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-------- Footer Section End ------->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/navbar-fixed.js"></script>
+</body>
+</html>

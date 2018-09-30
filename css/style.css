@@ -1,0 +1,152 @@
+body {
+  margin-top: 90px;
+}
+
+/*============ NavBar =========*/
+.navbar {
+  box-shadow: 2px 2px 5px #0C4C8A;
+  background: #fff;
+  opacity: 0.8;
+}
+.navbar .nav-item {
+  font-size: 1.3rem;
+  padding-right: 20px;
+}
+.navbar .nav-item .nav-link {
+  color: brown;
+}
+.navbar .nav-item .nav-link:hover {
+  color: #0C4C8A;
+}
+.navbar .nav-item:last-child {
+  padding-right: 0;
+}
+
+/*============== Poster ==========*/
+#poster {
+  background-image: url(../img/jeremy-bishop.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 700px;
+}
+#poster a {
+  border-radius: 0px;
+  margin-top: 30px;
+  padding: 10px 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#poster a:hover {
+  background-color: #678A93;
+  opacity: 0.9;
+  border-color: #EBDCC0;
+  color: dark;
+}
+#poster .overlay a i {
+  padding-right: 10px;
+}
+#poster .overlay {
+  background-color: rgba(50, 146, 156, 0.5);
+  position: absolute;
+  min-height: 700px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#poster .overlay img {
+  width: 90%;
+  height: 85%;
+  margin-left: 50px;
+}
+
+/*=========== Subscribe ===========*/
+#subscribe {
+  background: #678A93;
+}
+#subscribe .col-md-4 input {
+  border-radius: 0;
+}
+#subscribe .col-md-4 button {
+  border-radius: 0;
+}
+
+/*=========== Boxes ==================*/
+.card {
+  border-color: #0C4C8A;
+  border-radius: 0;
+}
+.card h3 {
+  color: #0C4C8A;
+}
+
+.second-card {
+  background-color: #0C4C8A;
+}
+
+.forth-card {
+  background-color: #0C4C8A;
+}
+
+/*========== Accordion ===============*/
+.card-header {
+  background-color: #EBDCC0;
+  opacity: 0.8;
+}
+.card-header h5 button {
+  font-size: 22px;
+}
+.card-header h5 button i, .card-header h5 button span {
+  color: #0C4C8A;
+}
+
+/*========== Authors =============*/
+#authors .authors-info p {
+  margin-bottom: 80px;
+}
+#authors .card:hover {
+  background-color: #678A93;
+  color: white;
+}
+#authors .card:hover .fa, #authors .card:hover h3 {
+  color: #EBDCC0;
+}
+#authors img {
+  margin-top: -60px;
+}
+#authors .fa {
+  font-size: 20px;
+  color: #0C4C8A;
+}
+
+/*======= Contact form ===========*/
+#contact {
+  background-image: url(../img/matt-sclarandis.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#contact img {
+  margin-top: 170px;
+}
+
+.contactForm button {
+  color: #fff;
+  background-color: #0C4C8A;
+  font-weight: bold;
+}
+
+/*======== Footer ========*/
+#footer {
+  background-color: #678A93;
+  color: #EBDCC0;
+}
+#footer a {
+  color: #0C4C8A;
+}
+
+/*# sourceMappingURL=style.css.map */

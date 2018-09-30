@@ -149,4 +149,109 @@ body {
   color: #0C4C8A;
 }
 
+/*==================  Media Query ==================*/
+@media (max-width: 575.98px) {
+  .navbar-brand img {
+    width: 20px;
+    height: 20px;
+  }
+  .navbar-brand h3 {
+    font-size: 20px;
+  }
+
+  span {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  #poster h1 {
+    font-size: 3rem;
+  }
+  #poster a {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+
+  #subscribe input, #subscribe button {
+    padding: 10px 20px;
+    width: 230px;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  #boxes .card {
+    margin: 10px 30px;
+  }
+
+  #about .book-info h2 {
+    font-size: 3rem;
+  }
+
+  #authors .authors-info h2 {
+    font-size: 3rem;
+  }
+  #authors .card {
+    margin: 30px 30px;
+  }
+
+  #contact .contact-info h2 {
+    font-size: 3rem;
+  }
+  #contact .contactForm input, #contact .contactForm textarea {
+    padding: 10px 52px;
+    margin: 10px 30px;
+  }
+  #contact .contactForm span {
+    display: none;
+  }
+  #contact .contactForm button {
+    width: 14rem;
+    margin: auto;
+  }
+  #contact img {
+    width: 70%;
+    margin: 50px 40px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #poster h1 {
+    font-size: 4rem;
+  }
+  #poster a {
+    padding: 15px 40px;
+    font-size: 18px;
+  }
+
+  #subscribe input, #subscribe button {
+    padding: 10px 20px;
+    width: 26rem;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  #boxes .card {
+    margin: 10px 50px;
+  }
+
+  #about .book-info h2 {
+    font-size: 3rem;
+  }
+
+  #authors .authors-info h2 {
+    font-size: 3rem;
+  }
+  #authors .card {
+    margin: 30px 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #boxes .card {
+    margin: 1rem;
+  }
+
+  #authors .card {
+    margin: 1.5rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

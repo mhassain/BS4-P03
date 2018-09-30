@@ -163,3 +163,160 @@ body{
       color:$primary;
     }
   }
+
+
+/*==================  Media Query ==================*/
+//Extra small devices (portrait phones, less than 576px)//
+@media (max-width: 575.98px) {
+.navbar-brand{
+    img {
+      width: 20px;
+      height: 20px;
+    }
+    h3{
+      font-size: 20px;
+    }
+  }
+span{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  #poster{
+    h1{
+      font-size: 3rem;
+    }
+    a{
+      padding: 10px 20px;
+      font-size: 15px;
+    }
+  }
+
+  #subscribe{
+    input, button{
+      padding: 10px 20px;
+      width: 230px;
+      margin: auto;
+      margin-bottom: 10px;
+    }
+  }
+
+  #boxes{
+    .card{
+      margin: 10px 30px;
+    }
+  }
+
+  #about{
+    .book-info{
+      h2{
+        font-size: 3rem;
+      }
+    }
+  }
+
+  #authors{
+    .authors-info{
+      h2{
+        font-size: 3rem;
+      }
+    }
+    .card{
+      margin: 30px 30px;
+    }
+  }
+
+  #contact{
+    .contact-info{
+      h2{
+        font-size: 3rem;
+      }
+    }
+    .contactForm{
+      input, textarea{
+        padding: 10px 52px;
+        margin: 10px 30px;
+
+      }
+      span{
+        display: none;
+      }
+      button{
+        width: 14rem;
+        margin: auto;
+      }
+    }
+    img{
+      width: 70%;
+      margin: 50px 40px;
+    }
+  }
+
+} //Extra Small Devices (576px) End//
+
+
+
+// Small devices (landscape phones, 576px and up)//
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  #poster{
+    h1{
+      font-size: 4rem;
+    }
+    a{
+      padding: 15px 40px;
+      font-size: 18px;
+    }
+  }
+
+  #subscribe{
+    input, button{
+      padding: 10px 20px;
+      width: 26rem;
+      margin: auto;
+      margin-bottom: 10px;
+    }
+  }
+
+  #boxes{
+    .card{
+      margin: 10px 50px;
+    }
+  }
+
+  #about{
+    .book-info{
+      h2{
+        font-size: 3rem;
+      }
+    }
+  }
+
+  #authors{
+    .authors-info{
+      h2{
+        font-size: 3rem;
+      }
+    }
+    .card{
+      margin: 30px 50px;
+    }
+  }
+
+} //Small Devices (576px - 767.98px) End//
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #boxes{
+    .card{
+      margin: 1rem;
+    }
+  }
+
+  #authors{
+    .card{
+      margin: 1.5rem;
+    }
+  }
+}
